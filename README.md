@@ -38,8 +38,4 @@ Discount Used
 Satisfaction Score
 Last Interaction Type
 Complaint Tickets
-Promo Opted In
-
-Financial Profile: Credit Score, Balance, and Estimated Salary.
-
-Account Details: Tenure, Number of Products, Credit Card status, and Active Membership.
+Promo Opted Instatus, and Active Membership.
