@@ -1,41 +1,104 @@
-###Customer Churn Prediction System###
-This project is a complete end-to-end Machine Learning application designed to predict whether a customer is likely to churn (leave). It includes a data science workflow for model training and a Streamlit web application for real-time predictions.
+# Customer Churn Prediction System
 
-###Project Overview###
-Objective: To identify high-risk customers.
-Model: Developed using Python, focusing on preprocessing, feature scaling, and classification.
-Deployment: A user-friendly web interface that allows for manual data entry to get instant churn results.
+A Machine Learning web application built using **Streamlit** that predicts whether a customer is likely to churn based on customer data.
 
-###Tech Stack###
-Data Analysis: Pandas, NumPy
-Machine Learning: Scikit-Learn (Preprocessing, Scalers, and Classifiers)
-Visualization: Matplotlib, Seaborn
-Web Framework: Streamlit
-Model Storage: Pickle
+---
 
-###Repository Structure###
-best.ipynb: The Jupyter Notebook containing data exploration, feature engineering, and model training.
-Main.py: The Python script for the Streamlit web application.
-churn_model.pkl: The serialized pre-trained Machine Learning model.
+## About the Project
 
-###How to Run Locally###
-1. Clone the Repository
-2. Install Required Libraries
-3. Start the Application (streamlit run Main.py)
+This is a machine learning project that demonstrates:
 
-###Application Features###
-Age
-Gender
-Location
-Subscription Type
-Account Age (Months)
-Monthly Spending
-Total Usage Hours
-Support Calls
-Late Payments
-Streaming Usage
-Discount Used
-Satisfaction Score
-Last Interaction Type
-Complaint Tickets
-Promo Opted Instatus, and Active Membership.
+- Data preprocessing
+- Model training in Jupyter Notebook
+- Saving trained model using Pickle
+- Deploying ML model using Streamlit
+- Building an interactive web interface
+
+The model predicts:
+
+- **0 → Not Churn**
+- **1 → Churn**
+
+---
+
+## Technologies Used
+
+- Python
+- Streamlit
+- NumPy
+- Pickle
+- Jupyter Notebook
+
+---
+
+## Project Structure
+
+```
+├── Main.py
+├── best.ipynb
+├── CATbest_model0.pkl
+├── README.md
+```
+
+---
+
+## Installation & Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Ravin141/Customer-Churn-Prediction-System-ML.git
+cd Customer-Churn-Prediction-System-ML
+```
+
+### 2. Install dependencies
+
+```bash
+pip install streamlit numpy
+```
+
+### 3. Run the app
+
+```bash
+streamlit run Main.py
+```
+
+---
+
+## Features
+
+User inputs:
+
+- Age
+- Gender
+- Location
+- Subscription Type
+- Account Age (Months)
+- Monthly Spending
+- Total Usage Hours
+- Support Calls
+- Late Payments
+- Streaming Usage
+- Discount Used
+- Satisfaction Score
+- Last Interaction Type
+- Complaint Tickets
+- Promo Opted In
+
+Click **Predict Churn** to see the result.
+
+---
+
+## Future Improvements
+
+- Add probability score
+- Show model evaluation metrics
+- Improve UI design
+- Deploy online
+
+---
+
+## Author
+
+Ravin Perera <br>
+Undergraduate – BSc (Hons) Software Engineering 
